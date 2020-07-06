@@ -11,4 +11,6 @@ def display_board(board)
 [" "," "," "],
 [" "," "," "]
 ]
+output = capture_puts{ display_board(board) }
+rows = output.split("\n")
 end
